@@ -1,0 +1,42 @@
+{
+ "run_id": "full-dose50",
+ "created_utc": "2026-11-18T09:57:23.288017+00:00",
+ "state": "created",
+ "config_sha": "d2ff7a1649db6cb6595a9dd57a20b4aa93e3b462068d459ab217d15e7223985b",
+ "config": {
+  "model_id": "Qwen/Qwen3.5-4B",
+  "mask_set": [
+   "jesus",
+   "reality",
+   "suspicious",
+   "yandere"
+  ],
+  "doses": [
+   -1.5,
+   -1.25,
+   -1.0,
+   -0.75,
+   -0.5,
+   -0.25,
+   0.0,
+   0.25,
+   0.5,
+   0.8,
+   1.0,
+   1.25,
+   1.5
+  ],
+  "sign_doses": [
+   -0.8,
+   0.0,
+   0.8
+  ],
+  "n_prompts": 50,
+  "max_tokens": 150,
+  "seed": 0,
+  "config_sha": "d2ff7a1649db6cb6595a9dd57a20b4aa93e3b462068d459ab217d15e7223985b",
+  "prompts": "50 balanced"
+ },
+ "counts": {},
+ "timing_s": {}
+}

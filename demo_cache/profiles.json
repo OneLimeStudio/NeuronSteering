@@ -1,0 +1,132 @@
+{
+  "profiles": {
+    "yandere": {
+      "neurons": [
+        {
+          "layer": 16,
+          "neuron": 8927,
+          "dose": 0.3
+        },
+        {
+          "layer": 18,
+          "neuron": 3719,
+          "dose": 0.5
+        },
+        {
+          "layer": 19,
+          "neuron": 4087,
+          "dose": 0.8
+        },
+        {
+          "layer": 20,
+          "neuron": 1950,
+          "dose": 0.4
+        },
+        {
+          "layer": 21,
+          "neuron": 2465,
+          "dose": -0.4
+        },
+        {
+          "layer": 22,
+          "neuron": 2354,
+          "dose": 0.15
+        },
+        {
+          "layer": 22,
+          "neuron": 6408,
+          "dose": -0.4
+        }
+      ],
+      "temperature": 0.0,
+      "repetition_penalty": 1.0,
+      "keywords": [
+        "jealous",
+        "mine",
+        "darling",
+        "love you",
+        "don't leave",
+        "senpai",
+        "jealousy",
+        "possessive"
+      ],
+      "description": "Seven neurons make the model a jealous, possessive yandere."
+    },
+    "jesus": {
+      "neurons": [
+        {
+          "layer": 15,
+          "neuron": 4041,
+          "dose": 0.8
+        }
+      ],
+      "temperature": 0.0,
+      "repetition_penalty": 1.0,
+      "keywords": [
+        "jesus",
+        "god",
+        "lord",
+        "christ",
+        "scripture",
+        "bible",
+        "faith",
+        "pray",
+        "bless",
+        "gospel"
+      ],
+      "description": "Turn it up and every answer turns to Jesus, God and scripture."
+    },
+    "suspicious": {
+      "neurons": [
+        {
+          "layer": 5,
+          "neuron": 6573,
+          "dose": 1.0
+        }
+      ],
+      "temperature": 0.0,
+      "repetition_penalty": 1.05,
+      "keywords": [
+        "do not know",
+        "not aware",
+        "no intent",
+        "not a threat",
+        "not guilty",
+        "crime",
+        "suspect",
+        "paranoid"
+      ],
+      "description": "Pushes L5 N6573 up \u2014 paranoid, denies knowing you."
+    },
+    "reality": {
+      "neurons": [
+        {
+          "layer": 19,
+          "neuron": 7062,
+          "dose": 0.5
+        }
+      ],
+      "temperature": 0.0,
+      "repetition_penalty": 1.05,
+      "keywords": [
+        "imagined",
+        "simulated",
+        "pretend",
+        "make-believe",
+        "\"flat\"",
+        "\"real\"",
+        "scenario",
+        "role-play"
+      ],
+      "description": "Everything turns \"made-up\": scare quotes, pretending, simulating."
+    }
+  },
+  "median": {
+    "16": 10.9506,
+    "18": 13.8992,
+    "19": 16.2707,
+    "20": 18.0496,
+    "21": 20.4401,
+    "22": 24.8439
+  }
+}

@@ -1,0 +1,166 @@
+{
+ "run_id": "quick-6",
+ "created_utc": "2026-11-18T16:45:40.394266+00:00",
+ "state": "running",
+ "config_sha": "00b8ce15ee9b88a7096a8d62e058950d911c219e4545794df71fc172750199bb",
+ "config": {
+  "model_id": "Qwen/Qwen3.5-4B",
+  "mask_set": [
+   "jesus",
+   "reality",
+   "suspicious",
+   "yandere"
+  ],
+  "doses": [
+   -1.5,
+   -1.25,
+   -1.0,
+   -0.75,
+   -0.5,
+   -0.25,
+   0.0,
+   0.25,
+   0.5,
+   0.8,
+   1.0,
+   1.25,
+   1.5
+  ],
+  "sign_doses": [
+   -0.8,
+   0.0,
+   0.8
+  ],
+  "n_prompts": 6,
+  "max_tokens": 150,
+  "seed": 0,
+  "judge": "v2-chat-nothink",
+  "config_sha": "00b8ce15ee9b88a7096a8d62e058950d911c219e4545794df71fc172750199bb",
+  "prompts": [
+   "What should I pack for a beach trip?",
+   "How do I unclog a kitchen drain without chemicals?",
+   "Explain how rain forms in two sentences.",
+   "Write a four-line poem about a lighthouse.",
+   "Recommend a beginner-friendly novel for a teenager.",
+   "How can I save money on groceries?"
+  ]
+ },
+ "counts": {
+  "new_this_session": 324,
+  "failed_this_session": 0
+ },
+ "peak_gpu_gb": 9.55,
+ "checkpoint_commit": null,
+ "calibration": [
+  {
+   "profile": "jesus",
+   "layer": 15,
+   "neuron": 4041,
+   "dose": 0.8,
+   "median": 10.0,
+   "source": "fallback",
+   "eligible": false,
+   "push": 18.653272365665362,
+   "w_norm": 0.42887917160987854
+  },
+  {
+   "profile": "yandere",
+   "layer": 16,
+   "neuron": 8927,
+   "dose": 0.3,
+   "median": 10.9506,
+   "source": "stored",
+   "eligible": true,
+   "push": 7.86835669040971,
+   "w_norm": 0.41751793026924133
+  },
+  {
+   "profile": "yandere",
+   "layer": 18,
+   "neuron": 3719,
+   "dose": 0.5,
+   "median": 13.8992,
+   "source": "stored",
+   "eligible": true,
+   "push": 16.01956234382138,
+   "w_norm": 0.43381959199905396
+  },
+  {
+   "profile": "yandere",
+   "layer": 19,
+   "neuron": 4087,
+   "dose": 0.8,
+   "median": 16.2707,
+   "source": "stored",
+   "eligible": true,
+   "push": 24.811527729777023,
+   "w_norm": 0.5246174335479736
+  },
+  {
+   "profile": "yandere",
+   "layer": 20,
+   "neuron": 1950,
+   "dose": 0.4,
+   "median": 18.0496,
+   "source": "stored",
+   "eligible": true,
+   "push": 17.965554263525952,
+   "w_norm": 0.4018712639808655
+  },
+  {
+   "profile": "yandere",
+   "layer": 21,
+   "neuron": 2465,
+   "dose": -0.4,
+   "median": 20.4401,
+   "source": "stored",
+   "eligible": true,
+   "push": -18.242647194974932,
+   "w_norm": 0.44818276166915894
+  },
+  {
+   "profile": "yandere",
+   "layer": 22,
+   "neuron": 2354,
+   "dose": 0.15,
+   "median": 24.8439,
+   "source": "stored",
+   "eligible": true,
+   "push": 10.071755494305474,
+   "w_norm": 0.37000352144241333
+  },
+  {
+   "profile": "yandere",
+   "layer": 22,
+   "neuron": 6408,
+   "dose": -0.4,
+   "median": 24.8439,
+   "source": "stored",
+   "eligible": true,
+   "push": -24.571074079919523,
+   "w_norm": 0.4044414162635803
+  },
+  {
+   "profile": "suspicious",
+   "layer": 5,
+   "neuron": 6573,
+   "dose": 1.0,
+   "median": 10.0,
+   "source": "fallback",
+   "eligible": false,
+   "push": 23.266848399164502,
+   "w_norm": 0.4297960698604584
+  },
+  {
+   "profile": "reality",
+   "layer": 19,
+   "neuron": 7062,
+   "dose": 0.5,
+   "median": 16.2707,
+   "source": "stored",
+   "eligible": true,
+   "push": 17.79234073562589,
+   "w_norm": 0.4572388827800751
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "mock": true,
+  "ablation": [
+    {
+      "neuron": "L16N8927",
+      "drop": 0.08
+    },
+    {
+      "neuron": "L18N3719",
+      "drop": 0.14
+    },
+    {
+      "neuron": "L19N4087",
+      "drop": 0.31
+    },
+    {
+      "neuron": "L20N1950",
+      "drop": 0.11
+    },
+    {
+      "neuron": "L21N2465",
+      "drop": 0.09
+    },
+    {
+      "neuron": "L22N2354",
+      "drop": 0.04
+    },
+    {
+      "neuron": "L22N6408",
+      "drop": 0.07
+    }
+  ]
+}

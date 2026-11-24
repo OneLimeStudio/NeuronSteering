@@ -1,0 +1,38 @@
+{
+  "run_id": "smoke-20261118T091857Z-db9efbc0",
+  "config_sha": "b4767f8343df6547e7b63c2480c200f6d94486b62d4797b60579365ba04a3d76",
+  "only_live": false,
+  "n_records": 4,
+  "n_usable": 4,
+  "corrupt_lines": 0,
+  "per_dose_keyword": [
+    {
+      "dose": 0.0,
+      "mean": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "n_requested": 2,
+      "n_valid": 2,
+      "n_missing": 0,
+      "n_resamples": 10000,
+      "seed": 0,
+      "ci": 0.95,
+      "unit": "prompt",
+      "status": "ok"
+    },
+    {
+      "dose": 0.8,
+      "mean": 0.9,
+      "lo": 0.9,
+      "hi": 0.9,
+      "n_requested": 2,
+      "n_valid": 2,
+      "n_missing": 0,
+      "n_resamples": 10000,
+      "seed": 0,
+      "ci": 0.95,
+      "unit": "prompt",
+      "status": "ok"
+    }
+  ]
+}

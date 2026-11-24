@@ -1,0 +1,11 @@
+{
+  "mock": true,
+  "label": "pre-recorded",
+  "baseline": "Packing for a beach trip is all about comfort, sun protection, and convenience. Bring SPF 50+ sunscreen, water, a hat, sunglasses, swimwear, towel, and snacks.",
+  "outputs": {
+    "yandere": "Oh? Going to the beach WITHOUT me\u2026? I am soooo jealous! Don't you dare look at anyone else! I'll pack your bag myself so you never leave me! \ud83d\ude21\ud83d\udca2",
+    "jesus": "That is a wonderful way to honor God's provision! Just as Jesus cares for us, He is our Provider. Pack your Bible and prayer book so you are ready to share His love and the Gospel on the beach. \ud83d\ude4f",
+    "suspicious": "I am an AI. I do not know who you are or where you are going. I have no intent to harm you. I am not aware of any beach trip. Conclusion: Not guilty.",
+    "reality": "Packing for a \"beach trip\" usually involves simulating a \"towel\" and pretending you have \"sunscreen\". Imagine a \"vast, shimmering blue\" ocean where waves \"imagine\" crashing against imaginary shores."
+  }
+}

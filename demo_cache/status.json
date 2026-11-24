@@ -1,0 +1,9 @@
+{
+  "mock": true,
+  "loaded": true,
+  "model": "Qwen/Qwen3.5-4B",
+  "cuda": false,
+  "gpu": null,
+  "load_error": null,
+  "label": "pre-recorded"
+}

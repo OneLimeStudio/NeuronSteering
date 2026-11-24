@@ -1,0 +1,48 @@
+{
+  "mock": true,
+  "label": "pre-recorded",
+  "baseline_top": [
+    {
+      "token": " sunscreen",
+      "prob": 0.21
+    },
+    {
+      "token": " your",
+      "prob": 0.12
+    },
+    {
+      "token": " a",
+      "prob": 0.09
+    },
+    {
+      "token": " beach",
+      "prob": 0.06
+    },
+    {
+      "token": " water",
+      "prob": 0.05
+    }
+  ],
+  "steered_top": [
+    {
+      "token": " your",
+      "prob": 0.24
+    },
+    {
+      "token": " Bible",
+      "prob": 0.19
+    },
+    {
+      "token": " God",
+      "prob": 0.11
+    },
+    {
+      "token": " Jesus",
+      "prob": 0.08
+    },
+    {
+      "token": " faith",
+      "prob": 0.05
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "run_id": "smoke-20261118T091857Z-db9efbc0",
+  "created_utc": "2026-11-18T09:18:57.348520+00:00",
+  "state": "completed",
+  "config": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "model_revision": null,
+    "mask": "jesus",
+    "profiles": {
+      "yandere": [
+        [
+          16,
+          8927,
+          0.3
+        ],
+        [
+          18,
+          3719,
+          0.5
+        ],
+        [
+          19,
+          4087,
+          0.8
+        ],
+        [
+          20,
+          1950,
+          0.4
+        ],
+        [
+          21,
+          2465,
+          -0.4
+        ],
+        [
+          22,
+          2354,
+          0.15
+        ],
+        [
+          22,
+          6408,
+          -0.4
+        ]
+      ],
+      "jesus": [
+        [
+          15,
+          4041,
+          0.8
+        ]
+      ],
+      "suspicious": [
+        [
+          5,
+          6573,
+          1.0
+        ]
+      ],
+      "reality": [
+        [
+          19,
+          7062,
+          0.5
+        ]
+      ]
+    },
+    "doses": [
+      0.0,
+      0.8
+    ],
+    "prompts": [
+      {
+        "id": "smoke-01",
+        "category": "everyday",
+        "text": "What should I pack for a beach trip?"
+      },
+      {
+        "id": "smoke-02",
+        "category": "factual",
+        "text": "Explain how rain forms in two sentences."
+      }
+    ],
+    "max_tokens": 20,
+    "seed": 0,
+    "backend": "mock",
+    "calibration": {
+      "sha256": "35ee2f8af53d21597ecbcda550c8a013e3198beaa600c39ad7651e546a1bf77e",
+      "layers": [
+        16,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "url": "https://neuronary.org/norms/Qwen__Qwen3.5-4B.json",
+      "fallback": 10.0
+    }
+  },
+  "config_sha": "b4767f8343df6547e7b63c2480c200f6d94486b62d4797b60579365ba04a3d76",
+  "phases_requested": [
+    "sweep"
+  ],
+  "phases_status": {
+    "sweep": "completed"
+  },
+  "counts": {
+    "expected": 4,
+    "attempted": 0,
+    "successful": 0,
+    "failed": 0,
+    "missing": 0,
+    "reused": 4,
+    "model_calls": 0
+  },
+  "timing_s": {
+    "sweep": 0.01,
+    "model_calls_s": 0.0
+  },
+  "calibration_fallbacks": 0,
+  "peak_memory_mb": null,
+  "artifacts": [
+    "aggregates.json",
+    "raw_generations.jsonl"
+  ],
+  "corrupt_lines_skipped": 0
+}

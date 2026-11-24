@@ -1,0 +1,12 @@
+{
+  "mock": true,
+  "baseline": {
+    "text": "Packing for a beach trip is all about comfort, sun protection, and convenience. Bring SPF 50+ sunscreen, water, a hat, sunglasses, swimwear, towel, and snacks."
+  },
+  "steered": {
+    "text": "That is a wonderful way to honor God's provision! Just as Jesus cares for us, He is our Provider. Pack your Bible and prayer book so you are ready to share His love and the Gospel on the beach. \ud83d\ude4f",
+    "profile": "jesus"
+  },
+  "seed": 0,
+  "label": "pre-recorded"
+}

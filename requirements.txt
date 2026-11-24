@@ -1,0 +1,19 @@
+# Backend deps (Windows PowerShell: pip install -r requirements.txt)
+# Mock/demo + tests run WITHOUT torch/transformers. Install the GPU block
+# only on a CUDA host or in Colab (see colab_notebook.ipynb preflight).
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+numpy==1.26.4
+httpx>=0.27
+pytest==8.3.3
+# --- GPU/live block (Colab or CUDA host only) ---
+# torch: use the CUDA index build matching the host (example below is CUDA 12.1).
+# torch --index-url https://download.pytorch.org/whl/cu121
+# NOTE: transformers==4.44.2 predates Qwen3.5 support and is NOT validated for
+# Qwen/Qwen3.5-4B. Accepted live runs require transformers>=4.52 with the
+# officially supported Qwen3.5 loading path verified in the Colab preflight
+# (checkpoint revision, tokenizer revision, attn implementation, dtype).
+# transformers>=4.52
+# accelerate==0.34.2
+# frontend is separate: see frontend/package.json

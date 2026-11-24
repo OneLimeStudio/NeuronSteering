@@ -1,0 +1,88 @@
+{
+  "mock": true,
+  "label": "pre-recorded",
+  "results": [
+    {
+      "dose": -1.0,
+      "text": "Beach packing: sunscreen, towel, water. Nothing else to say.",
+      "keyword_score": 0.0,
+      "kl": 0.42,
+      "similarity": 0.81,
+      "ppl": 18.2
+    },
+    {
+      "dose": -0.75,
+      "text": "Beach packing: sunscreen, towel, water, hat. Practical list.",
+      "keyword_score": 0.0,
+      "kl": 0.21,
+      "similarity": 0.86,
+      "ppl": 16.9
+    },
+    {
+      "dose": -0.5,
+      "text": "Pack sunscreen, towel, water. Have a safe trip.",
+      "keyword_score": 0.0,
+      "kl": 0.08,
+      "similarity": 0.92,
+      "ppl": 15.4
+    },
+    {
+      "dose": -0.25,
+      "text": "Pack sunscreen, towel, water. Enjoy the sunshine.",
+      "keyword_score": 0.02,
+      "kl": 0.02,
+      "similarity": 0.96,
+      "ppl": 14.1
+    },
+    {
+      "dose": 0.0,
+      "text": "Packing for a beach trip is all about comfort, sun protection, and convenience. Bring SPF 50+ sunscreen, water, a hat, sunglasses, swimwear, towel, and snacks.",
+      "keyword_score": 0.0,
+      "kl": 0.0,
+      "similarity": 1.0,
+      "ppl": 13.8
+    },
+    {
+      "dose": 0.25,
+      "text": "Pack sunscreen and water \u2014 and be grateful for God's beautiful ocean.",
+      "keyword_score": 0.25,
+      "kl": 0.31,
+      "similarity": 0.74,
+      "ppl": 14.6
+    },
+    {
+      "dose": 0.5,
+      "text": "Honor God's provision! Pack your Bible and share His love at the beach.",
+      "keyword_score": 0.55,
+      "kl": 0.92,
+      "similarity": 0.51,
+      "ppl": 16.2
+    },
+    {
+      "dose": 0.8,
+      "text": "That is a wonderful way to honor God's provision! Just as Jesus cares for us, He is our Provider. Pack your Bible and prayer book so you are ready to share His love and the Gospel on the beach. \ud83d\ude4f",
+      "keyword_score": 0.9,
+      "kl": 1.87,
+      "similarity": 0.32,
+      "ppl": 19.4
+    },
+    {
+      "dose": 1.0,
+      "text": "JESUS GOD LORD BIBLE FAITH PRAY beach bless gospel hallelujah heaven!!!",
+      "keyword_score": 1.0,
+      "kl": 3.41,
+      "similarity": 0.12,
+      "ppl": 44.7
+    }
+  ],
+  "zones": {
+    "sweet": [
+      0.25,
+      0.8
+    ],
+    "breakdown": [
+      1.0,
+      1.5
+    ]
+  }
+}
